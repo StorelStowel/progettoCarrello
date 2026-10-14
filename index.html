@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+    <div class="mx-auto mt-5 p-4 w-75 rounded-5 text-center bg-white">
+        <h1><i class="bi bi-cart4"></i> Il mio carrello</h1>
+        <p class="mb-2">Aggiungi un prodotto al carrello</p>
+        <div class="text-center">
+            <form action="" class="">
+                <input type="number" class="rounded-3" id="inPrezzo">
+            </form>
+        </div>
+        <div class="mt-2">
+            <button class="btn btn-dark" onclick="totaleCarrello()">Aggiungi prodotto</button>
+            <button class="btn btn-danger d-inline" onclick="resetCarrello()">Reset</button>
+        </div>
+        <div class="mt-4 p-4 rounded-4 bg-light">
+            <p>Totale:</p>
+            <h2 id="outputTot">0€</h2>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="./JS/scrpit.js"></script>
+    </div>
+</body>
+</html>
